@@ -1,2 +1,8 @@
 BasedOnStyle: LLVM
 LineEnding: LF
+PackArguments:
+  BinPack: OnePerLine
+PackParameters:
+  BinPack: AlwaysOnePerLine
+BreakAfterOpenBracketFunction: true
+BreakBeforeCloseBracketFunction: true
